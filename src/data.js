@@ -1,5 +1,10 @@
 import React from 'react';
-import { FaBehance, FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa';
+// import { FaBehance, FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import Facebook from './facebook.svg'
+import Twitter from './twitter.svg'
+import Behance from './behance.svg'
+import Linkedin from './linkedin.svg'
+
 export const links = [
   {
     id: 1,
@@ -31,22 +36,22 @@ export const links = [
 export const social = [
   {
     id: 1,
-    url: 'https://www.twitter.com',
-    icon: FaFacebook ,
+    url: 'https://www.facebook.com',
+    icon: Facebook,
   },
   {
     id: 2,
     url: 'https://www.twitter.com',
-    icon: FaTwitter ,
+    icon: Twitter,
   },
   {
     id: 3,
-    url: 'https://www.twitter.com',
-    icon: FaLinkedin ,
+    url: 'https://www.linkedin.com',
+    icon: Linkedin,
   },
   {
     id: 4,
-    url: 'https://www.twitter.com',
-    icon: FaBehance ,
+    url: 'https://www.behance.net',
+    icon: Behance,
   },
 ];
